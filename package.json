@@ -1,0 +1,36 @@
+{
+  "name": "r3f-galaxy-generator",
+  "version": "1.0.0",
+  "description": "three js galaxy generator",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html --no-cache",
+    "build": "parcel build src/index.html --out-dir build --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deevo-sage/r3f-galaxy-generator.git"
+  },
+  "author": "sidharth sahni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deevo-sage/r3f-galaxy-generator/issues"
+  },
+  "homepage": "https://github.com/deevo-sage/r3f-galaxy-generator#readme",
+  "dependencies": {
+    "@react-three/drei": "^6.2.0",
+    "@react-three/fiber": "^7.0.1",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "@types/three": "^0.129.1",
+    "leva": "^0.9.12",
+    "parcel-bundler": "^1.12.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.129.0"
+  },
+  "devDependencies": {
+    "sass": "^1.35.1",
+    "typescript": "^4.3.3"
+  }
+}
